@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Shared Style */
+.font-inter{
+     font-family: "Inter", sans-serif;
+}
+
+.btn{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #469165;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.btn:hover{
+    background-color: #02682c;
+}
+
+
+/* Main Style */
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+nav .logo img{
+    width: 139px;
+    height: 60px;
+}
+
+nav .menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+#banner .banner-content .banner-top{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    width: 230px;
+    height: 35px;
+}
+.banner-top .square-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px; 
+    height: 12px;
+    flex-shrink: 0;
+}
+.square-section .outer-square{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px; 
+    background-color: rgba(70, 145, 101, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-section .outer-square .middle-square{
+    width: 10px; 
+    height: 10px;
+    border-radius: 8px;
+    background-color: rgba(70, 145, 101, 0.4);
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-square .middle-square .inner-square{
+    width: 6px; 
+    height: 6px;
+    border-radius: 8px;
+    background-color: rgba(70, 145, 101);
+    display: flex;
+}
