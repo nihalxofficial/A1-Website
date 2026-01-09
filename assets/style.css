@@ -172,7 +172,7 @@ nav .menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 
 }
 
@@ -285,5 +285,41 @@ nav .menu{
     color: #001931;
     font-size: 14px;
     font-weight: 500;
+    line-height: 17px;
+}
+
+.access-container{
+    margin: 105px auto;
+    background-color: #f7f6f2;
+    text-align: center;
+    padding: 70px 34px;
+    border-radius: 10px;
+}
+
+.access-container h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 14px;
+}
+
+.access-container #access-top{
+    color: #627382;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.access-container .btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+.access-container #access-bot{
+    font-size: 14px;
+    color: #627382;
     line-height: 17px;
 }
