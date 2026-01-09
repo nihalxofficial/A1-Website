@@ -34,6 +34,11 @@
     border: none;
 }
 
+.container-width{
+    width: 85%;
+    max-width: 1160px;
+}
+
 
 /* Main Style */
 nav{
@@ -77,8 +82,9 @@ nav .menu{
 }
 
 #banner .banner-content{
-    max-width: 760px;
+    
     margin: 0 auto 150px;
+    padding: 0 210px;
     text-align: center;
     height: 380px;
 }
@@ -168,4 +174,60 @@ nav .menu{
     align-items: center;
     gap: 10px;
 
+}
+
+.notes-section{
+    height: 380px;
+    background-color: #FFFFFF;
+}
+
+.note-head{
+    text-align: center;
+    margin: 0 auto 37px;
+    padding-top: 40px;
+}
+
+.note-head h2{
+    color: #001931;
+    font-size: 41px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.note-head p{
+    font-size: 14px;
+    line-height: 17px;
+    color: #627382;
+}
+
+.notes-section .notes-container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 21px;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    height: 256px;
+}
+
+.notes-container .notes{
+    max-width: 275px;
+    max-height: 255px;
+    padding: 60px 10px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 6px 6px 16px rgb(216, 216, 216);
+}
+
+.notes img{
+    background-color: #f95555;
+    padding: 10px;
+    border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.notes h4{
+    font-size: 19px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 13px;
 }
