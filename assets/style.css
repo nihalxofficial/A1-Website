@@ -231,3 +231,59 @@ nav .menu{
     color: #001931;
     margin-bottom: 13px;
 }
+
+.brain-section{
+    background-color: #ffffff;
+    padding-top: 140px;
+}
+
+.brain-section .brain-container{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    margin: 0 auto;
+}
+
+.brain-section-head{
+    margin-bottom: 34px;
+}
+
+.brain-section-head h4{
+    color: #30b868;
+    line-height: 17px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 14px;
+
+}
+.brain-section-head h2{
+    color: #001931;
+    font-weight: 700;
+    font-size: 41px;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+
+}
+.brain-section-head p{
+    color: #627382;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* .brain-checklist{
+    display: flex;
+} */
+
+.brain-checklist .checklist-item{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 16px;
+
+}
+
+.checklist-item h4{
+    color: #001931;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
